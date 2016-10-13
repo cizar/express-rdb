@@ -4,7 +4,7 @@ Middleware that connects to RethinkDB and sets `req.db`.
 
 ## Install
 
-    $ npm install express-rdb
+    $ npm install --save express-rdb
 
 ## Usage
 
@@ -17,3 +17,6 @@ app.get('/users/:id', rdb({ db: 'test' }), function (req, res) {
 });
 ```
 
+## Credits
+
+Author: [Tristan McNab](http://neuromancer.io/rethinkdb-connection-middleware/)
